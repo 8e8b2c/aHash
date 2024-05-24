@@ -79,6 +79,7 @@ codegen-units = 1
 version_check = "0.9.4"
 
 [dependencies]
+getrandom = { git = "https://github.com/8e8b2c/getrandom", rev = "44fb933096ef6c13b2f225b0de17190cb41bd6cd", optional = true }
 const-random = { version = "0.1.17", optional = true }
 serde = { version = "1.0.117", optional = true }
 cfg-if = "1.0"
